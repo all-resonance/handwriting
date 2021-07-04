@@ -1,0 +1,25 @@
+{
+  "name": "rpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/all-resonance/rPack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/all-resonance/rPack/issues"
+  },
+  "homepage": "https://github.com/all-resonance/rPack#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "webpack": "4",
+    "webpack-cli": "^4.7.2"
+  }
+}
