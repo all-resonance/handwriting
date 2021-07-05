@@ -2,24 +2,28 @@
   "name": "rpack",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/webpack.js",
   "scripts": {
     "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/all-resonance/rPack.git"
+    "url": "git+https://github.com/all-resonance/rpack.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/all-resonance/rPack/issues"
+    "url": "https://github.com/all-resonance/rpack/issues"
   },
-  "homepage": "https://github.com/all-resonance/rPack#readme",
+  "homepage": "https://github.com/all-resonance/rpack#readme",
   "devDependencies": {
+    "babylon": "^6.18.0",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "webpack": "4",
     "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "tapable": "1"
   }
 }
