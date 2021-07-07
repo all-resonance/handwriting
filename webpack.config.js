@@ -7,5 +7,5 @@ module.exports = {
   output: {
     filename: 'main.js',
   },
-  plugins: [new CleanWebpackPlugin()],
+//   plugins: [new CleanWebpackPlugin()],
 }
