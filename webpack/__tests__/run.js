@@ -6,5 +6,5 @@ const compiler = webpack(options)
 
 compiler.run((err, stats) => {
   console.log(err)
-  // console.log(stats)
+  console.log(stats)
 })

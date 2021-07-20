@@ -1,13 +1,18 @@
 <p align="center">
   <a href="https://www.gitpod.io">
-    <img src="./Rpack.png" height="90">
-    <h3 align="center">rpack</h3>
+    <h3 align="center">handwriting</h3>
   </a>
-  <p align="center">Webpack迷你版</p>
+  <p align="center">手写框架源码系列</p>
 </p>
 
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/all-resonance/rpack)
-<!-- [![NPM version][npm-image]][npm-url]  -->
-<!-- [![NPM downloads][download-image]][download-url] -->
+[![Gitpod ready-to-code][gitpod-image]][gitpod-url]
 
-手动实现模块打包器，Webpack迷你版。
+[gitpod-image]: https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod
+[gitpod-url]: https://gitpod.io/#https://github.com/all-resonance/handwriting
+
+手写框架源码系列：用了那么久的框架，你不好奇它是怎么实现的吗？
+- webpack源码
+- react源码
+
+## 文章
+整理中...

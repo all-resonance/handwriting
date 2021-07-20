@@ -20,6 +20,9 @@ class Compilation extends Tapable {
     this.modules = [] // 所有模块信息
     this.hooks = {
       succeedModule: new SyncHook(['module']),
+      seal: new SyncHook(),
+      beforeChunks: new SyncHook(),
+      afterChunks: new SyncHook(),
     }
   }
 
@@ -90,8 +93,8 @@ class Compilation extends Tapable {
 
   /**
    * 会递归的将有依赖的模块加载出来
-   * @param {*} module 
-   * @param {*} callback 
+   * @param {*} module
+   * @param {*} callback
    */
   processDependenice(module, callback) {
     // 创建一个模块，将加载的模块放进去
@@ -116,6 +119,8 @@ class Compilation extends Tapable {
       callback
     )
   }
+
+  seal(callback) {}
 }
 
 module.exports = Compilation
