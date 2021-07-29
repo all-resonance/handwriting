@@ -1,4 +1,3 @@
 /build
 /dist
-/node_modules
-.git-commit-plugin-1.0.1.vsix
+/**/node_modules/
